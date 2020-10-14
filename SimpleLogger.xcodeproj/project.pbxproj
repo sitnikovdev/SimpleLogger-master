@@ -60,17 +60,33 @@
 		552E35C11F23844F006F5628 /* SimpleLogger */ = {
 			isa = PBXGroup;
 			children = (
+				667C854825374B8B00ECF4CB /* Logger */,
+				667C854725374B3800ECF4CB /* SupportFiles */,
+			);
+			path = SimpleLogger;
+			sourceTree = "<group>";
+		};
+		667C854725374B3800ECF4CB /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
 				552E35C21F23844F006F5628 /* AppDelegate.swift */,
-				552E35C41F23844F006F5628 /* ViewController.swift */,
 				552E35C61F23844F006F5628 /* Main.storyboard */,
 				552E35C91F23844F006F5628 /* Assets.xcassets */,
 				552E35CB1F23844F006F5628 /* LaunchScreen.storyboard */,
 				552E35CE1F23844F006F5628 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		667C854825374B8B00ECF4CB /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				552E35C41F23844F006F5628 /* ViewController.swift */,
 				552E35D41F2384A8006F5628 /* YBLogger.swift */,
 				5502DCA71F23D1F90069EC4F /* YBLoggerConfiguration.swift */,
 				5584FBA81F24500F0067CF57 /* YBFileLogger.swift */,
 			);
-			path = SimpleLogger;
+			path = Logger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SimpleLogger/Info.plist;
+				INFOPLIST_FILE = SimpleLogger/SupportFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yogesh.SimpleLogger;
@@ -288,7 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SimpleLogger/Info.plist;
+				INFOPLIST_FILE = SimpleLogger/SupportFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yogesh.SimpleLogger;
